@@ -3,11 +3,15 @@
 /*******************************/
 body {
     color: #666666;
-    background: #dddddd;
+    background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
+
+
+
 
 h1,
 h2, 
@@ -776,7 +780,7 @@ a:focus {
     width: calc(100% - 60px);
     font-size: 20px;
     font-weight: 700;
-    color: #fdbe33;
+    color: #c42e36;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -794,7 +798,7 @@ a:focus {
     line-height: 60px;
     font-weight: 100;
     color: #030f27;
-    background: #fdbe33;
+    background: #c42e36;
     border-radius: 0;
     transition: .3s;
 }
@@ -845,7 +849,7 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fdbe33;
+    background: #c42e36;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -860,13 +864,13 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fdbe33;
+    background: #c42e36;
     border-radius: 50%;
     transition: all 200ms;
 }
 
 .video .btn-play:hover:after {
-    background-color: darken(#fdbe33, 10%);
+    background-color: darken(#c42e36, 10%);
 }
 
 .video .btn-play img {
@@ -959,7 +963,7 @@ a:focus {
 .team .team-text h2 {
     font-size: 20px;
     font-weight: 600;
-    color: #fdbe33;
+    color: #c42e36;
     transition: .5s;
 }
 
@@ -969,7 +973,7 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .team .team-item:hover .team-text h2 {
@@ -1044,7 +1048,7 @@ a:focus {
     height: 100%;
     top: 0;
     left: calc(50% - .5px);
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .faqs #accordion-1 {
@@ -1098,14 +1102,14 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"][aria-expanded="true"] {
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
     font-family: 'font Awesome 5 Free';
     content: "\f067";
     float: right;
-    color: #fdbe33;
+    color: #c42e36;
     font-size: 12px;
     font-weight: 900;
     transition: .5s;
@@ -1201,7 +1205,7 @@ a:focus {
 }
 
 .testimonial .testimonial-slider h3 {
-    color: #fdbe33;
+    color: #c42e36;
     font-size: 22px;
     font-weight: 700;
 }
@@ -1263,7 +1267,7 @@ a:focus {
     width: calc(100% - 60px);
     font-size: 18px;
     font-weight: 700;
-    color: #fdbe33;
+    color: #c42e36;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -1281,7 +1285,7 @@ a:focus {
     line-height: 60px;
     font-weight: 100;
     color: #030f27;
-    background: #fdbe33;
+    background: #c42e36;
     border-radius: 0;
     transition: .3s;
 }
@@ -1303,7 +1307,7 @@ a:focus {
     height: 1px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .blog .blog-meta p {
@@ -1334,12 +1338,12 @@ a:focus {
 .blog .pagination .page-link {
     color: #030f27;
     border-radius: 0;
-    border-color: #fdbe33;
+    border-color: #c42e36;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #fdbe33;
+    color: #c42e36;
     background: #030f27;
 }
 
@@ -1383,7 +1387,7 @@ a:focus {
 }
 
 .single .single-tags a:hover {
-    color: #fdbe33;
+    color: #c42e36;
     background: #030f27;
 }
 
@@ -1498,14 +1502,14 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #030f27;
-    background: #fdbe33;
+    background: #c42e36;
     font-size: 16px;
     transition: .3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: #fdbe33;
+    color: #c42e36;
     background: #030f27;
 }
 
@@ -1569,7 +1573,7 @@ a:focus {
 }
 
 .single .comment-text .btn:hover {
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .single .comment-form {
@@ -1599,11 +1603,11 @@ a:focus {
 .single .comment-form .btn {
     padding: 15px 30px;
     color: #030f27;
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .single .comment-form .btn:hover {
-    color: #fdbe33;
+    color: #c42e36;
     background: #030f27;
 }
 
@@ -1642,7 +1646,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #fdbe33;
+    background: #c42e36;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1666,7 +1670,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #fdbe33;
+    color: #c42e36;
     background: none;
     border-radius: 0;
     border: none;
